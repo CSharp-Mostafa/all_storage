@@ -1,0 +1,372 @@
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font family */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Set width and center wrapper */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+    header h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+/* Style navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+nav#menu1 {
+    background-color: #f2f2f2;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+#menu2 ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menu2 ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+#menu2 ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height: 80px;
+    transition: 0.5s;
+    padding-right: 14px;
+}
+
+#menu2 ul li a span {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+}
+
+#menu2 ul li a {
+    text-decoration: none;
+    display: absolute;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition: .5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+    #menu2 ul li a:before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: -20px;
+        height: 100%;
+        width: 20px;
+        background: #b1b1b1;
+        transition: 0.5s;
+        transform: rotate(0deg) skewY(-45deg);
+    }
+    #menu2 ul li a:after {
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: -10px;
+        height: 20px;
+        width: 100%;
+        background: #b1b1b1;
+        transition: 0.5s;
+        transform: rotate(0deg) skewX(-45deg);
+    }
+
+    #menu2 ul li a:hover {
+        transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
+        box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+    }
+#menu2 ul li:hover .fa {
+    color: #fff;
+}
+
+#menu2 ul li:hover span {
+    color: #fff;
+}
+
+#menu2 ul li:hover:nth-child(1) a {
+    background-color: #3b5998;
+}
+
+#menu2 ul li:hover:nth-child(1) a:before {
+    background-color: #365492;
+}
+
+#menu2 ul li:hover:nth-child(1) a:after {
+    background-color: #4a69ad;
+}
+
+#menu2 ul li:hover:nth-child(2) a {
+    background-color: #00aced;
+}
+
+#menu2 ul li:hover:nth-child(2) a:before {
+    background-color: #097aa5;
+}
+
+#menu2 ul li:hover:nth-child(2) a:after {
+    background-color: #53b9e0;
+}
+
+#menu2 ul li:hover:nth-child(3) a {
+    background-color: #bb4b39;
+}
+
+#menu2 ul li:hover:nth-child(3) a:before {
+    background-color: #b33a2b;
+}
+
+#menu2 ul li:hover:nth-child(3) a:after {
+    background-color: #e66a5a;
+}
+
+#menu2 ul li:hover:nth-child(4) a {
+    background-color: #a4405f; 
+}
+
+#menu2 ul li:hover:nth-child(4) a:before {
+    background-color: #a4405f;
+}
+
+#menu2 ul li:hover:nth-child(4) a:after {
+    background-color: 
+    #e46880;
+}
+
+/*#menu1 {
+    height: 45px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+    #menu1 ul li {
+        float: left;
+        list-style-type: none;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+#menu1 ul li:first-child {
+    border-left: none;
+}
+
+#menu1 ul li:last-child {
+    border-right: none;
+}
+
+#menu1 ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#aboutus {
+    float: left;
+}
+
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    height: 860px;
+    background-color: #00aced;
+}
+
+header {
+    padding: 10px;
+    align-self: center;
+    color: red;
+}*/
+
+
+
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font family */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Set width and center wrapper */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+
+nav#menu1 {
+    background-color: #f2f2f2;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/*nav#menu2 {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+    nav#menu2 ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    nav#menu2 a {
+        display: block;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+
+        nav#menu2 a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+    nav#menu2 i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    nav#menu2 span {
+        display: none;
+    }*/
+
+
+/* Style footer */
+/*footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 16px;
+}
+
+footer h2 {
+    font-size: 24px;
+}
+*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+}
+
+footer h2 {
+    padding-left: 400px;
+    padding-top: 0px;
+}
+
+footer h4 {
+    padding-left: 400px;
+    padding-top: 550px;
+}
+
+footer #rol {
+    padding-left: 450px;
+    padding-top: 550px;
+}

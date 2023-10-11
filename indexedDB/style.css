@@ -1,0 +1,246 @@
+﻿/*body {
+    margin: 0;*/
+    /*    padding: 0;*/
+    /*    background: #ccc;*/
+    /*font-family: 'Roboto Condensed', sans-serif;
+    height: 100px;
+}
+#menu1 {
+    height: 45px;*/
+    /*background-color: #ebcb0a7b;*/
+    /*border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#menu1 ul li {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+    #menu1 ul li:first-child {
+        border-left: none;
+    }
+
+    #menu1 ul li:last-child {
+        border-right: none;
+    }
+
+    #menu1 ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+#aboutus {
+    float: left;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 156px;
+    background-color: #00aced;*/ /*best one smart - sky*/
+/*}
+
+
+    #container #body1 {
+        width: 1000px;
+        margin: 0 auto;
+        height: 700px;
+    }
+
+
+    header {*/
+        /* margin-top: 10px;*/
+        /*padding: 10px;
+        align-self: center;
+        color: red;
+    }
+#body{
+    background-color: #fff;
+    height: 600px;
+}
+#contacts {
+    width: 400px;
+    border: 1px solid #E1E1E1;
+    margin: 0px;
+    padding: 0px;
+}
+
+    #contacts thead {
+        background-color: #e1e1e1;
+        color: #7C756D;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    #contacts tbody tr:nth-child(even) {
+        background-color: #eee;
+    }
+
+    #contacts th {
+        border-color: #7C756D;
+        border-style: none none solid;
+        border-width: 0 0 1px;
+    }
+
+    #contacts th, #contacts td {
+        margin: 0px;
+        padding: 5px 10px;
+    }
+
+#editContact #contacts{
+    float: left;
+}
+footer {
+    height: 100px;
+    padding-left: 380px;
+    background-color: #00aced;*/ /*best one smart - sky*/
+/*}
+
+
+    footer h2 {
+        padding-left: 400px;
+        padding-top: 0px;
+    }
+
+    footer h4 {
+        padding-left: 400px;
+        padding-top: 550px;
+    }
+
+    footer #rol {
+        padding-left: 450px;
+        padding-top: 550px;
+    }*/
+
+
+
+    /*    byb chat gpt*/
+
+/* set default font size and family */
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* center the container */
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+    header h1 {
+        font-size: 36px;
+        margin: 0;
+        text-align: center;
+    }
+
+/* style the navigation menu */
+nav {
+    background-color: #ddd;
+    padding: 10px;
+    overflow: hidden;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        display: block;
+        color: #333;
+        font-weight: bold;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            background-color: #ccc;
+        }
+
+/* style the main content area */
+#body1 {
+    padding: 20px;
+}
+
+/* style the form inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* style the Save button */
+#btnSave {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    #btnSave:hover {
+        background-color: #666;
+    }
+
+/* style the contacts table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+    footer h4 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    footer h2 {
+        font-size: 24px;
+        margin: 0;
+    }

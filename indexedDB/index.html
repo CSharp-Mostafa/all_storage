@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="scripts/jQuery-3.1.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <link href="style.css" rel="stylesheet" /> <!--page indexedDB-->
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 title="Trainee Name"><marquee width="100%" behavior="alternate">Mostafa Enterprise PVT LTD.</marquee></h1>
+        </header>
+        <nav id="menu1">
+            <ul>
+                <li>
+                    <a href="../indexedDb/" title="IndexedDb"><b>IndexedDb</b></a> 
+                </li>
+                <li>
+                    <a href="webstorage.html" title="Webstorage"><b>WebSQL</b></a> 
+                </li>
+                <li>
+                    <a href="indexDB.html" title="IndexDB"><b>IndexDB</b></a>
+                </li>
+                <li>
+                    <a href="sessionstorage.html" title="Sessionstorage"><b>Sessionstorage</b></a> 
+                </li>
+                <li>
+                    <a href="Filesystem.html" title="Filesystem"><b>Filesystem</b></a> 
+                </li>
+                <li>
+                    <a href="aboutus.html" title="About us"><b>About us</b></a> 
+                </li>
+            </ul>
+        </nav>
+        <hgroup id="headerText">
+            <!--<h1>Contacts</h1>-->
+        </hgroup>
+        <div id="body1">
+            <div role="main">
+
+                <div id="editContact">
+                    <h2 id="currentAction"></h2>
+                    <div>
+                        <label for="firstName">First Name: </label>
+                        <input type="text" id="firstName" name="firstName" />
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" id="lastName" name="lastName" />
+                    </div>
+
+                    <div>
+                        <label for="email">Email Address: </label>
+                        <input type="email" id="email" name="email" />
+                    </div>
+
+                    <div>
+                        <label for="phoneNumber">Phone Number: </label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" />
+                    </div>
+                    <div>
+                        <label for="file">File </label>
+                        <input type="file" id="file" name="file" />
+                    </div>
+
+                    <div class="buttons">
+                        <button id="btnSave" name="save">Save</button>
+                    </div>
+
+                </div>
+                <table id="contacts">
+                    <thead>Data Showing
+                        <tr>
+                            <th>Email</th>
+                            <th>Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <h4>&copy; All rights reserved By</h4>
+            <h2>Golam Mostafa</h2>
+        </footer>
+    </div>
+</body>
+</html>
